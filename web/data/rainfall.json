@@ -1,1 +1,522 @@
-[]
+[
+  {
+    "station_id": "029db0dd4e2446a5bc86900c9b20af3c",
+    "station_name": "小店",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "0a45d553babf44bab5961d0f052b7ab3",
+    "station_name": "新袁",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "0bfae0eb871745db8d5457b0e031b841",
+    "station_name": "嶂山闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "10044e3221754405bb6d4ad007996948",
+    "station_name": "沭阳",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "125d4a11807944e88eff722d1a8ff0b1",
+    "station_name": "泗阳闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "191b0a9505764c89a99b31f2800aa5ff",
+    "station_name": "来龙庵",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "199922afdec84836ba538b6a9e0fcc85",
+    "station_name": "大兴",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "1a02aed0c2f84230bf5d843cfd4428e6",
+    "station_name": "周集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "1e1b050ec69b4d719946078a61e3ffc4",
+    "station_name": "高墟",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "20b12f56058f448fa6f5a3ee8e7c2a4d",
+    "station_name": "马厂",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "262b0ed40f6b43eea849d9704f6d33fa",
+    "station_name": "八集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "2c6524ddf820455e98fc61b2921bda2f",
+    "station_name": "刘集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "38402a6b86c740ae9cdb746e33d3f82d",
+    "station_name": "泗洪(老)",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "393ecd5cbfe04645a0ae70e7c7413668",
+    "station_name": "朱贵庄",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "3f3ad6274d46420b957a28372742fa66",
+    "station_name": "陆集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "44a4337534174f70846a608afbc7a910",
+    "station_name": "青伊湖",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "476de830efef4c82b7e90b62bef72d09",
+    "station_name": "濉河闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "503885277e6142639859517670b2521c",
+    "station_name": "陈圩",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "5edac2fb91584141b8a77f13f6ce5def",
+    "station_name": "城西",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "611d9c24e4824da7a04007c962109bd6",
+    "station_name": "桐槐树",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "632954f8ae614f86a16e1b1e96ca0aa9",
+    "station_name": "北刘集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "67f8f65403dc40b4a3b4103dcadfa774",
+    "station_name": "宿迁闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "68338565d4044845852edc30ad56a992",
+    "station_name": "埠子",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "6aca203f77bf4378a9232388434fba85",
+    "station_name": "皂河闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "773a21ccecc642f09d85d8cf3a0c7b29",
+    "station_name": "金锁镇",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "7d7eacfa03af4042aa5f984390455f4a",
+    "station_name": "史集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "80609956b7c84cdf9ade00a2845f1239",
+    "station_name": "耿车",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "8211f71836ad4d538b4c754d58f9325c",
+    "station_name": "吴集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "869db1de86064d8c85b0fb464ca0dec7",
+    "station_name": "石集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "988cfb5e4c3449a98dfaef5a57eee9cf",
+    "station_name": "双沟（合）",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "9c68acb3b5a34e11be40de0fc36d67bb",
+    "station_name": "阴平",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "9ebb27d976fc4d90bc97f7c633293f28",
+    "station_name": "洪泽农场",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "a7563cff34cd48d0b3d32e595731262d",
+    "station_name": "临淮头",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "aa253bc94bc54dfabcd519fe53ac3e97",
+    "station_name": "郑集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "acb60824d2fb4412b451ff1c7d0a74ae",
+    "station_name": "曹咀",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "bb046417a5df4abb928c0f75b9cc2ce8",
+    "station_name": "汤涧",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "bdfb3933897c4d84bdd07202a2ec3614",
+    "station_name": "大涧河闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "bf994b21eb7349568f11be5ea91ea057",
+    "station_name": "岔河(朱湖)",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "c19ee88b9d1c4eacaf3b3b98b678ec5c",
+    "station_name": "西便河闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "c50a19ff98d3458e8a6983ed40ad4c0f",
+    "station_name": "老汴河闸",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "c7a3f7f088d0409883c309054e4992a8",
+    "station_name": "城东",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "cb3c7b632243469787bb410e3735b33e",
+    "station_name": "洋河",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "cd181bb254b04045b283dafb9129e4c0",
+    "station_name": "王集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "d2696648b0754ec3aee1eda22ccd3069",
+    "station_name": "尚咀",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "d2f31253b61c4fe4be51db8612f9e304",
+    "station_name": "林柴场",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "d793cbd0a93a46febdf283e98fa84739",
+    "station_name": "屠园",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "dc867aaddcff422e971874933ed1f0c4",
+    "station_name": "穿城",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "ed856392e5e64e1f94acc2e9aba77e62",
+    "station_name": "章集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "f2bf8615bc3440839ca6e3efb2df53a0",
+    "station_name": "复隆",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "f2e22680a90a4c1b8ec133cf9262ca5e",
+    "station_name": "卢集",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "f618b509326d4c979af257535c5f4c08",
+    "station_name": "官塘",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
+    "station_id": "fa91570df1cb4347942c8380526813e2",
+    "station_name": "爱园",
+    "date": "2026-11-06",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  }
+]

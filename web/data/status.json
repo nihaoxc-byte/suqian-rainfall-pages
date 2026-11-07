@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T10:26:14.132314+00:00",
+  "generated_at": "2026-11-07T14:45:57.597961+00:00",
   "station_count": 52,
-  "record_count": 0,
-  "latest_date": null,
-  "last_collection_at": null,
-  "last_collection_state": null,
+  "record_count": 52,
+  "latest_date": "2026-11-06",
+  "last_collection_at": "2026-11-07T14:37:45.052335+00:00",
+  "last_collection_state": "validation_complete",
   "conflict_count": 0,
-  "message": "日雨量统计口径仍在核验，暂未发布正式日值。"
+  "message": "日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注日期；具体起止时刻未另行推定。"
 }

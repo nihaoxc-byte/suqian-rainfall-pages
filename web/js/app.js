@@ -50,7 +50,7 @@ function updateMap(station, query) {
   $('trendStation').textContent=selected?.name??'站点';
   const item=state.records.find(r=>r.station_id===station&&r.date===$('date').value);
   $('selectedValue').textContent=item ? `${Number(item.rainfall_mm).toFixed(1)} mm` : '—';
-  $('selectedStatus').textContent=item ? '已核验日雨量' : '暂无已核验日值';
+  $('selectedStatus').textContent=item ? '源站昨日降水量' : '暂无有效日值';
   const names=new Map(state.stations.map(s=>[s.id,s.name]));
   for (const pin of [...$('mapPins').children]) {
     const active=pin.dataset.station===station;
@@ -81,7 +81,7 @@ function render() {
     button.textContent = s.name; button.className = 'station-button';
     button.classList.toggle('is-active',s.id===station);
     button.setAttribute('aria-pressed',String(s.id===station));
-    button.title=item ? `${Number(item.rainfall_mm).toFixed(1)} mm` : '暂无已核验日值';
+    button.title=item ? `${Number(item.rainfall_mm).toFixed(1)} mm` : '暂无有效日值';
     button.onclick = () => selectStation(s.id);
     $('stationRows').append(button);
   }
@@ -100,7 +100,7 @@ function render() {
     const values = new Map(series.map(r => [r.date, Number(r.rainfall_mm)]));
     $('trendEmpty').hidden = true;
     state.trend.setOption({animation:false,tooltip:{trigger:'axis',renderMode:'richText'},grid:{left:45,right:22,top:30,bottom:55},xAxis:{type:'category',data:dates.map(d=>d.slice(5))},yAxis:{type:'value',name:'mm',min:0},dataZoom:[{type:'inside'}],series:[{type:'bar',data:dates.map(d=>values.get(d)??null),itemStyle:{color:'#168a98',borderRadius:[3,3,0,0]},barMaxWidth:28}]},true);
-  } else {state.trend?.clear(); message('trendEmpty', !window.echarts ? '图表组件未能加载。站点查询和数据导出仍可使用。' : '当前站点暂无已验证的历史日值。');}
+  } else {state.trend?.clear(); message('trendEmpty', !window.echarts ? '图表组件未能加载。站点查询和数据导出仍可使用。' : '当前站点暂无有效历史日值。');}
   const ranked = [...daily].sort((a,b)=>Number(b.rainfall_mm)-Number(a.rainfall_mm)||a.station_name.localeCompare(b.station_name,'zh-CN')).slice(0,10).reverse();
   if (ranked.length && state.rank) {
     $('rankEmpty').hidden = true;
@@ -130,8 +130,8 @@ async function loadMonth() {
 function exportCsv() {
   if (!state.records.length) return;
   const quote = value => {let s=String(value??''); if (/^[=+@-]/.test(s)) s="'"+s; return '"'+s.replaceAll('"','""')+'"';};
-  const fields=['station_name','date','window_start','window_end','rainfall_mm'];
-  const csv='\uFEFF'+['站名,日期,统计开始,统计结束,雨量毫米',...state.records.map(r=>fields.map(f=>quote(r[f])).join(','))].join('\r\n');
+  const fields=['station_name','date','window_start','window_end','rainfall_mm','source_label'];
+  const csv='\uFEFF'+['站名,日期,统计开始（未知则空）,统计结束（未知则空）,雨量毫米,统计口径',...state.records.map(r=>fields.map(f=>quote(r[f])).join(','))].join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
   const a=document.createElement('a'); a.href=url; a.download=`宿迁日雨量-${$('month').value}.csv`; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
