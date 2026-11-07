@@ -29,11 +29,11 @@
       <p class="caption">位置与底图来自江苏水情信息网页面，仅作站点分布示意，不用于定位、导航或测距。</p>
     </section>
     <div class="stats-column">
-      <section class="panel stats-controls" aria-label="统计筛选"><div class="controls"><label>月份<select id="month" disabled><option>暂无日值</option></select></label><label>日期<select id="date" disabled><option>暂无日值</option></select></label><button id="export" disabled>导出本月 CSV</button></div></section>
+      <section class="panel stats-controls" aria-label="统计筛选"><div class="controls"><label>月份<select id="month" disabled><option>暂无日值</option></select></label><label>日期<select id="date" disabled><option>暂无日值</option></select></label><button id="export" disabled>下载月表 CSV</button></div></section>
       <section class="panel" id="trend"><div class="panel-head"><div><div class="eyebrow">RAINFALL TREND</div><h2><span id="trendStation">站点</span> · 日雨量趋势</h2></div><label><span class="sr-only">站点</span><select id="station" aria-label="站点" disabled><option>正在加载</option></select></label></div><div class="chart-wrap"><div id="trendChart" class="chart" role="img" aria-label="所选站点的日雨量趋势"></div><p id="trendEmpty" class="empty">尚无已验证的历史日值。</p></div><p class="caption">单位 mm · 空缺为缺测或待核验，0 为已确认的零雨量。</p></section>
       <section class="panel ranking"><div class="panel-head"><div><div class="eyebrow">DAILY RANKING</div><h2>当日雨量排名</h2></div><span class="pill">TOP 10</span></div><div class="chart-wrap"><div id="rankChart" class="chart" role="img" aria-label="所选日期雨量前十站点"></div><p id="rankEmpty" class="empty">暂无可排名的有效日值。</p></div><p class="caption">仅比较同一日期和口径的数据；缺测站点不参与排名。</p></section>
     </div>
   </div>
-  <section class="about" id="about"><h2>关于这些记录</h2><div><p>数据来源：<a href="http://swsq.jswater.org.cn:9088/jsswxxSSI/Web/Default.html?m=1" target="_blank" rel="noopener noreferrer">江苏水情信息网</a>。目前覆盖该网页宿迁筛选下的52个站点，站名已逐一核对；网页内部ID不等同于正式测站编码。</p><p>本项目为个人整理。日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注。具体统计起止时刻未另行推定；近15天累计量不作为单日数据发布。</p><p>左侧采用源站历史底图与页面像素坐标，真实经纬度尚未确认。CSV可使用Excel打开；原生Excel工作簿导出将在后续版本补充。</p></div></section>
+  <section class="about" id="about"><h2>关于这些记录</h2><div><p>数据来源：<a href="http://swsq.jswater.org.cn:9088/jsswxxSSI/Web/Default.html?m=1" target="_blank" rel="noopener noreferrer">江苏水情信息网</a>。目前覆盖该网页宿迁筛选下的52个站点，站名已逐一核对；网页内部ID不等同于正式测站编码。</p><p>本项目为个人整理。日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注。具体统计起止时刻未另行推定；近15天累计量不作为单日数据发布。</p><p>左侧采用源站历史底图与页面像素坐标，真实经纬度尚未确认。每月CSV表格可直接使用Excel打开，每次采集后自动更新。未采集的日期不补零。</p></div></section>
 </main><footer>宿迁雨量观察 <span>持续记录 · 谨慎核验</span></footer>
 </body></html>

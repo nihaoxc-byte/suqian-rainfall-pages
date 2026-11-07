@@ -128,12 +128,12 @@ async function loadMonth() {
   }
 }
 function exportCsv() {
-  if (!state.records.length) return;
-  const quote = value => {let s=String(value??''); if (/^[=+@-]/.test(s)) s="'"+s; return '"'+s.replaceAll('"','""')+'"';};
-  const fields=['station_name','date','window_start','window_end','rainfall_mm','source_label'];
-  const csv='\uFEFF'+['站名,日期,统计开始（未知则空）,统计结束（未知则空）,雨量毫米,统计口径',...state.records.map(r=>fields.map(f=>quote(r[f])).join(','))].join('\r\n');
-  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
-  const a=document.createElement('a'); a.href=url; a.download=`宿迁日雨量-${$('month').value}.csv`; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+  const month = $('month').value;
+  if (!state.records.length || !/^\d{4}-\d{2}$/.test(month)) return;
+  const a = document.createElement('a');
+  a.href = `data/exports/rainfall-${month}.csv`;
+  a.download = `宿迁日雨量-${month}.csv`;
+  a.click();
 }
 async function main() {
   try {
