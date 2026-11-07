@@ -1,0 +1,262 @@
+[
+  {
+    "id": "029db0dd4e2446a5bc86900c9b20af3c",
+    "name": "小店",
+    "area": "宿迁市"
+  },
+  {
+    "id": "0a45d553babf44bab5961d0f052b7ab3",
+    "name": "新袁",
+    "area": "宿迁市"
+  },
+  {
+    "id": "0bfae0eb871745db8d5457b0e031b841",
+    "name": "嶂山闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "10044e3221754405bb6d4ad007996948",
+    "name": "沭阳",
+    "area": "宿迁市"
+  },
+  {
+    "id": "125d4a11807944e88eff722d1a8ff0b1",
+    "name": "泗阳闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "191b0a9505764c89a99b31f2800aa5ff",
+    "name": "来龙庵",
+    "area": "宿迁市"
+  },
+  {
+    "id": "199922afdec84836ba538b6a9e0fcc85",
+    "name": "大兴",
+    "area": "宿迁市"
+  },
+  {
+    "id": "1a02aed0c2f84230bf5d843cfd4428e6",
+    "name": "周集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "1e1b050ec69b4d719946078a61e3ffc4",
+    "name": "高墟",
+    "area": "宿迁市"
+  },
+  {
+    "id": "20b12f56058f448fa6f5a3ee8e7c2a4d",
+    "name": "马厂",
+    "area": "宿迁市"
+  },
+  {
+    "id": "262b0ed40f6b43eea849d9704f6d33fa",
+    "name": "八集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "2c6524ddf820455e98fc61b2921bda2f",
+    "name": "刘集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "38402a6b86c740ae9cdb746e33d3f82d",
+    "name": "泗洪(老)",
+    "area": "宿迁市"
+  },
+  {
+    "id": "393ecd5cbfe04645a0ae70e7c7413668",
+    "name": "朱贵庄",
+    "area": "宿迁市"
+  },
+  {
+    "id": "3f3ad6274d46420b957a28372742fa66",
+    "name": "陆集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "44a4337534174f70846a608afbc7a910",
+    "name": "青伊湖",
+    "area": "宿迁市"
+  },
+  {
+    "id": "476de830efef4c82b7e90b62bef72d09",
+    "name": "濉河闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "503885277e6142639859517670b2521c",
+    "name": "陈圩",
+    "area": "宿迁市"
+  },
+  {
+    "id": "5edac2fb91584141b8a77f13f6ce5def",
+    "name": "城西",
+    "area": "宿迁市"
+  },
+  {
+    "id": "611d9c24e4824da7a04007c962109bd6",
+    "name": "桐槐树",
+    "area": "宿迁市"
+  },
+  {
+    "id": "632954f8ae614f86a16e1b1e96ca0aa9",
+    "name": "北刘集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "67f8f65403dc40b4a3b4103dcadfa774",
+    "name": "宿迁闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "68338565d4044845852edc30ad56a992",
+    "name": "埠子",
+    "area": "宿迁市"
+  },
+  {
+    "id": "6aca203f77bf4378a9232388434fba85",
+    "name": "皂河闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "773a21ccecc642f09d85d8cf3a0c7b29",
+    "name": "金锁镇",
+    "area": "宿迁市"
+  },
+  {
+    "id": "7d7eacfa03af4042aa5f984390455f4a",
+    "name": "史集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "80609956b7c84cdf9ade00a2845f1239",
+    "name": "耿车",
+    "area": "宿迁市"
+  },
+  {
+    "id": "8211f71836ad4d538b4c754d58f9325c",
+    "name": "吴集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "869db1de86064d8c85b0fb464ca0dec7",
+    "name": "石集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "988cfb5e4c3449a98dfaef5a57eee9cf",
+    "name": "双沟（合）",
+    "area": "宿迁市"
+  },
+  {
+    "id": "9c68acb3b5a34e11be40de0fc36d67bb",
+    "name": "阴平",
+    "area": "宿迁市"
+  },
+  {
+    "id": "9ebb27d976fc4d90bc97f7c633293f28",
+    "name": "洪泽农场",
+    "area": "宿迁市"
+  },
+  {
+    "id": "a7563cff34cd48d0b3d32e595731262d",
+    "name": "临淮头",
+    "area": "宿迁市"
+  },
+  {
+    "id": "aa253bc94bc54dfabcd519fe53ac3e97",
+    "name": "郑集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "acb60824d2fb4412b451ff1c7d0a74ae",
+    "name": "曹咀",
+    "area": "宿迁市"
+  },
+  {
+    "id": "bb046417a5df4abb928c0f75b9cc2ce8",
+    "name": "汤涧",
+    "area": "宿迁市"
+  },
+  {
+    "id": "bdfb3933897c4d84bdd07202a2ec3614",
+    "name": "大涧河闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "bf994b21eb7349568f11be5ea91ea057",
+    "name": "岔河(朱湖)",
+    "area": "宿迁市"
+  },
+  {
+    "id": "c19ee88b9d1c4eacaf3b3b98b678ec5c",
+    "name": "西便河闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "c50a19ff98d3458e8a6983ed40ad4c0f",
+    "name": "老汴河闸",
+    "area": "宿迁市"
+  },
+  {
+    "id": "c7a3f7f088d0409883c309054e4992a8",
+    "name": "城东",
+    "area": "宿迁市"
+  },
+  {
+    "id": "cb3c7b632243469787bb410e3735b33e",
+    "name": "洋河",
+    "area": "宿迁市"
+  },
+  {
+    "id": "cd181bb254b04045b283dafb9129e4c0",
+    "name": "王集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "d2696648b0754ec3aee1eda22ccd3069",
+    "name": "尚咀",
+    "area": "宿迁市"
+  },
+  {
+    "id": "d2f31253b61c4fe4be51db8612f9e304",
+    "name": "林柴场",
+    "area": "宿迁市"
+  },
+  {
+    "id": "d793cbd0a93a46febdf283e98fa84739",
+    "name": "屠园",
+    "area": "宿迁市"
+  },
+  {
+    "id": "dc867aaddcff422e971874933ed1f0c4",
+    "name": "穿城",
+    "area": "宿迁市"
+  },
+  {
+    "id": "ed856392e5e64e1f94acc2e9aba77e62",
+    "name": "章集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "f2bf8615bc3440839ca6e3efb2df53a0",
+    "name": "复隆",
+    "area": "宿迁市"
+  },
+  {
+    "id": "f2e22680a90a4c1b8ec133cf9262ca5e",
+    "name": "卢集",
+    "area": "宿迁市"
+  },
+  {
+    "id": "f618b509326d4c979af257535c5f4c08",
+    "name": "官塘",
+    "area": "宿迁市"
+  },
+  {
+    "id": "fa91570df1cb4347942c8380526813e2",
+    "name": "爱园",
+    "area": "宿迁市"
+  }
+]
