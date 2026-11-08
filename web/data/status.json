@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T02:43:31.824656+00:00",
+  "generated_at": "2026-11-08T03:42:11.487073+00:00",
   "station_count": 52,
   "record_count": 102,
   "latest_date": "2026-11-07",
-  "last_collection_at": "2026-11-08T02:43:31.684078+00:00",
+  "last_collection_at": "2026-11-08T03:42:11.413824+00:00",
   "last_collection_state": "needs_review",
   "conflict_count": 0,
   "dataset_sha256": "bc9991f9dc587643547c11eda604c6576294738625f86eb5af11796e4e60d3d5",
