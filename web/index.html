@@ -8,7 +8,7 @@
   <script defer src="assets/echarts.min.js"></script><script defer src="js/app.js"></script>
 </head>
 <body>
-<header><a class="brand" href="./"><span class="mark">≋</span>宿迁雨量观察</a><nav aria-label="页面导航"><a href="#stationMap">地图</a><a href="#trend">统计</a><a href="#stations">站点</a><a href="#about">数据说明</a></nav><span class="region">江苏 · 宿迁</span></header>
+<header><a class="brand" href="./"><span class="mark">≋</span>宿迁雨量观察</a><nav aria-label="页面导航"><a href="#stationMap">地图</a><a href="#trend">统计</a><a href="#stations">站点</a><a href="#about">数据说明</a><a href="https://github.com/nihaoxc-byte/suqian-rainfall-monitor/actions/workflows/collect_rainfall.yml" target="_blank" rel="noopener noreferrer" title="登录 GitHub 后点击 Run workflow，补采昨日缺失站点">手动更新 ↗</a></nav><span class="region">江苏 · 宿迁</span></header>
 <main>
   <section class="intro"><div class="eyebrow">SUQIAN · RAINFALL OBSERVATORY</div><h1>宿迁雨量监测</h1><p>在地图上选择站点，查看日雨量趋势与区域排名。</p></section>
   <div class="notice" id="notice" role="status">正在读取数据状态…</div>
@@ -34,6 +34,6 @@
       <section class="panel ranking"><div class="panel-head"><div><div class="eyebrow">DAILY RANKING</div><h2>当日雨量排名</h2></div><span class="pill">TOP 10</span></div><div class="chart-wrap"><div id="rankChart" class="chart" role="img" aria-label="所选日期雨量前十站点"></div><p id="rankEmpty" class="empty">暂无可排名的有效日值。</p></div><p class="caption">仅比较同一日期和口径的数据；缺测站点不参与排名。</p></section>
     </div>
   </div>
-  <section class="about" id="about"><h2>关于这些记录</h2><div><p>数据来源：<a href="http://swsq.jswater.org.cn:9088/jsswxxSSI/Web/Default.html?m=1" target="_blank" rel="noopener noreferrer">江苏水情信息网</a>。目前覆盖该网页宿迁筛选下的52个站点，站名已逐一核对；网页内部ID不等同于正式测站编码。</p><p>本项目为个人整理。日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注。具体统计起止时刻未另行推定；近15天累计量不作为单日数据发布。</p><p>左侧采用源站历史底图与页面像素坐标，真实经纬度尚未确认。每月CSV表格可直接使用Excel打开，每次采集后自动更新。未采集的日期不补零。</p></div></section>
+  <section class="about" id="about"><h2>关于这些记录</h2><div><p>数据来源：<a href="http://swsq.jswater.org.cn:9088/jsswxxSSI/Web/Default.html?m=1" target="_blank" rel="noopener noreferrer">江苏水情信息网</a>。目前覆盖该网页宿迁筛选下的52个站点，站名已逐一核对；网页内部ID不等同于正式测站编码。</p><p>本项目为个人整理。日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注。具体统计起止时刻未另行推定；近15天累计量不作为单日数据发布。</p><p>左侧采用源站历史底图与页面像素坐标，真实经纬度尚未确认。每月CSV表格可直接使用Excel打开，每次采集后自动更新。未采集的日期不补零。手动更新：点击顶部“手动更新”，登录 GitHub 后点击 Run workflow，再确认运行；仅补采昨日缺失站点，完成后刷新本页查看。</p></div></section>
 </main><footer>宿迁雨量观察 <span>持续记录 · 谨慎核验</span></footer>
 </body></html>
