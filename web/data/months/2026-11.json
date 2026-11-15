@@ -4510,6 +4510,16 @@
     "source_label": "昨日降水量"
   },
   {
+    "station_id": "c50a19ff98d3458e8a6983ed40ad4c0f",
+    "station_name": "老汴河闸",
+    "date": "2026-11-14",
+    "window_start": null,
+    "window_end": null,
+    "rainfall_mm": 0.0,
+    "daily_definition": "source_yesterday_v1",
+    "source_label": "昨日降水量"
+  },
+  {
     "station_id": "c7a3f7f088d0409883c309054e4992a8",
     "station_name": "城东",
     "date": "2026-11-14",
