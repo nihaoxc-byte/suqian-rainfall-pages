@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T11:04:04.558192+00:00",
+  "generated_at": "2026-11-19T10:24:46.145125+00:00",
   "station_count": 52,
-  "record_count": 620,
-  "latest_date": "2026-11-17",
-  "last_collection_at": "2026-11-18T10:14:14.122607+00:00",
+  "record_count": 672,
+  "latest_date": "2026-11-18",
+  "last_collection_at": "2026-11-19T10:24:45.996140+00:00",
   "last_collection_state": "validation_complete",
   "conflict_count": 0,
-  "dataset_sha256": "914ae11dbcc800626efbda744c8fb86bd8b6f5aadba0ceac899b62e39156ce85",
+  "dataset_sha256": "e7e0aa23f695b01bec4a6df775e67630ab8eb1202a3b9318075e2bbb030723d0",
   "message": "日雨量采用源站“昨日降水量”，按采集时北京时间的前一天标注日期；具体起止时刻未另行推定。"
 }
